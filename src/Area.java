@@ -1,5 +1,5 @@
 interface Area {
-    public abstract void getArea(final int length,final int width);
+    public abstract void getArea(final int length,final int width,final int height);
 }
 class Rectangle implements Area{
     public void getArea(int length,int width){
